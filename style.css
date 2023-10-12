@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+}
+/*Designing navbar*/
+.navbar .container{
+    background: #1F2937;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
+.header-links ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.navbar .logo{
+    font-size: 24px;
+    font-weight: 800;
+    color: #F9FAF8;
+}

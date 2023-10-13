@@ -96,3 +96,32 @@
     /* justify-content: center; */ /*testimonial is not centering vertically*/
     gap: 10px;
 }
+
+/*Styling alert signup*/
+.signupalert{
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.signupalert .container{
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    justify-content: space-around;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #F9FAF8;;
+    border-radius: 10px;
+}
+.signupalert button{
+    color: #F9FAF8;
+    background: #3882F6;
+    padding: 10px;
+    border: 1px solid #F9FAF8;;
+    border-radius: 10px;
+}

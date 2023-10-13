@@ -3,13 +3,18 @@
     box-sizing: border-box;
     padding: 0;
 }
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 /*Designing navbar*/
 .navbar .container{
     background: #1F2937;
     color: #fff;
     display: flex;
     justify-content: space-around;
-    height: 100px;
+    height: 90px;
 }
 .header-links ul{
     display: flex;
@@ -87,6 +92,7 @@
     background-color: #d8d3d3;
     height: 120px;
     margin-top: 50px;
+    padding: 10px;
     /* width: 130px; */
 }
 .testimonial .container{
@@ -95,6 +101,10 @@
     align-items: center;
     /* justify-content: center; */ /*testimonial is not centering vertically*/
     gap: 10px;
+}
+.quote{
+    font-style: italic;
+    font-size: 20px;
 }
 
 /*Styling alert signup*/

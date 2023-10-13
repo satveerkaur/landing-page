@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -92,7 +92,10 @@ body{
     background-color: #d8d3d3;
     height: 120px;
     margin-top: 50px;
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
     /* width: 130px; */
 }
 .testimonial .container{
@@ -145,3 +148,4 @@ body{
     height: 50px;
     align-items: center;
 }
+

@@ -77,6 +77,22 @@
     flex-direction: column;
     /* flex-wrap: wrap; */
     width: 130px;
+    height: 200px;
     margin: 0 20px;
+    gap: 10px;
+}
+
+/*styling testimony section*/
+.testimonial{
+    background-color: #d8d3d3;
+    height: 120px;
+    margin-top: 50px;
+    /* width: 130px; */
+}
+.testimonial .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */ /*testimonial is not centering vertically*/
     gap: 10px;
 }
